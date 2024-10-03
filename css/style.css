@@ -1,11 +1,15 @@
 body {
-    background-color: #FFFAF0;
+    background-color: #FFFEC4;
 }
 
 header {
-    background-color: #ADFF2F;
+    background-color: #FF9B9B;
+}
+
+strong {
+    color: #FF9B9B;
 }
 
 footer {
-    background-color: #ADFF2F;
+    background-color: #FF9B9B;
 }
