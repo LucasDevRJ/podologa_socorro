@@ -1,9 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: #FFFEC4;
+    box-sizing: border-box;
+    height: 100vh;
 }
 
 header {
     background-color: #FF9B9B;
+}
+
+.sobre {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sobre-texto {
+    display: flex;
+    width: 70vw;
+    gap: 0 30px;
+    margin: 30px 0;
 }
 
 .texto-destaque {
