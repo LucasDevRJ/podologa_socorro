@@ -39,6 +39,11 @@ body {
     font-family: 'Raleway';
 }
 
+.cabecalho__navegacao__link:hover {
+    text-decoration-line: underline;
+    color: #FFD09B;
+}
+
 .sobre {
     display: flex;
     align-items: center;
@@ -80,6 +85,28 @@ body {
     font-family: 'Dancing_Script';
 }
 
+.sobre__contato__links {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.sobre__contato__links__rede {
+    text-decoration: none;
+    background-color: #FFD09B;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 22px;
+    width: 10vw;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border-style: outset;
+    border-color: #FFECC8;
+}
+
 .rodape {
     background-color: #FF9B9B;
     height: 30vh;
@@ -113,4 +140,5 @@ body {
 .rodape__navegacao__link {
     text-decoration: none;
     color: #FFF7D1;
+    font-family: 'Raleway';
 }
