@@ -9,7 +9,7 @@ body {
     height: 100vh;
 }
 
-header {
+.cabecalho {
     background-color: #FF9B9B;
     height: 20vh;
     display: flex;
@@ -17,12 +17,18 @@ header {
     padding: 30px;
 }
 
-.cabecalho-links {
+.cabecalho__navegacao {
     display: flex;
     align-items: flex-end;
     align-content: center;
     justify-content: center;
     gap: 50px;
+}
+
+.cabecalho__navegacao__link {
+    font-size: 26px;
+    text-decoration: none;
+    color: #FFF7D1;
 }
 
 .sobre {
@@ -70,6 +76,7 @@ footer {
 .rodape-icones {
     display: flex;
     justify-content: center;
+    gap: 5px;
 }
 
 .rodape-links {
