@@ -44,4 +44,19 @@ header {
 
 footer {
     background-color: #FF9B9B;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.rodape-icones {
+    display: flex;
+    justify-content: center;
+}
+
+.rodape-links {
+    display: flex;
+    flex-direction: column;
 }
