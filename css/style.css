@@ -36,6 +36,7 @@ body {
     font-size: 26px;
     text-decoration: none;
     color: #FFF7D1;
+    font-family: 'Raleway';
 }
 
 .sobre {
@@ -75,6 +76,10 @@ body {
     font-weight: bolder;
 }
 
+.sobre__contato__subtitulo {
+    font-family: 'Dancing_Script';
+}
+
 .rodape {
     background-color: #FF9B9B;
     height: 30vh;
@@ -94,6 +99,10 @@ body {
 .rodape__navegacao {
     display: flex;
     flex-direction: column;
+}
+
+.rodape__endereco__paragrafo, .rodape__paragrafo {
+    font-family: 'Raleway';
 }
 
 .rodape__paragrafo__destaque {

@@ -12,3 +12,8 @@
     font-family: 'Dancing_Script';
     src: url('../fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf');
 }
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('../fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf');
+}
