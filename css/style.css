@@ -107,6 +107,7 @@ body {
     border-style: outset;
     border-color: #FFECC8;
     padding: 10px 30px;
+    font-family: 'Inter';
 }
 
 .sobre__contato__links__rede:hover {
