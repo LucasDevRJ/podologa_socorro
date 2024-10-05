@@ -13,12 +13,13 @@ header {
     background-color: #FF9B9B;
     height: 20vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 30px;
 }
 
 .cabecalho-links {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     align-content: center;
     justify-content: center;
     gap: 50px;
@@ -54,6 +55,7 @@ header {
 
 .texto-destaque {
     color: #FF9B9B;
+    font-weight: bolder;
 }
 
 footer {
