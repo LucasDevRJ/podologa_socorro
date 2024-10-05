@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Qwitcher_Grypen';
+    src: url('../fonts/Qwitcher_Grypen/QwitcherGrypen-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf');
+}
+
+@font-face {
+    font-family: 'Dancing_Script';
+    src: url('../fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf');
+}

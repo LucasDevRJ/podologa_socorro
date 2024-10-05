@@ -1,3 +1,5 @@
+@import url('fonts.css');
+
 * {
     margin: 0;
     padding: 0;
@@ -15,6 +17,11 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 30px;
+}
+
+.cabecalho__logo {
+    font-family: 'Qwitcher_Grypen';
+    font-size: 70px;
 }
 
 .cabecalho__navegacao {
@@ -50,6 +57,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 25px;
+    font-family: 'Dancing_Script';
 }
 
 .sobre__conteudo__texto {
@@ -59,6 +67,7 @@ body {
     gap: 30px;
     margin: 50px 0;
     font-size: 22px;
+    font-family: 'Inter';
 }
 
 .sobre__conteudo__subtitulos__destaque {
