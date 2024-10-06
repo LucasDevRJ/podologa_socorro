@@ -1,19 +1,19 @@
 @font-face {
     font-family: 'Qwitcher_Grypen';
-    src: url('../fonts/Qwitcher_Grypen/QwitcherGrypen-Bold.ttf');
+    src: url('../assets/fonts/Qwitcher_Grypen/QwitcherGrypen-Regular.ttf');
 }
 
 @font-face {
     font-family: 'Inter';
-    src: url('../fonts/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf');
+    src: url('../assets/fonts/Inter/Inter-Italic-VariableFont_opsz\,wght.ttf');
 }
 
 @font-face {
     font-family: 'Dancing_Script';
-    src: url('../fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf');
+    src: url('../assets/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf');
 }
 
 @font-face {
     font-family: 'Raleway';
-    src: url('../fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf');
+    src: url('../assets/fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf');
 }
