@@ -21,12 +21,12 @@ p::selection, h1::selection, h2::selection, h3::selection, a::selection, span::s
     height: 20vh;
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 4%;
 }
 
 .cabecalho__logo {
     font-family: 'Qwitcher_Grypen';
-    font-size: 70px;
+    font-size: 4rem;
 }
 
 .cabecalho__logo:hover {
@@ -38,11 +38,11 @@ p::selection, h1::selection, h2::selection, h3::selection, a::selection, span::s
     align-items: flex-end;
     align-content: center;
     justify-content: center;
-    gap: 50px;
+    gap: 5vw;
 }
 
 .cabecalho__navegacao__link {
-    font-size: 26px;
+    font-size: 1.7rem;
     text-decoration: none;
     color: #FFF7D1;
     font-family: 'Raleway';
@@ -65,7 +65,7 @@ p::selection, h1::selection, h2::selection, h3::selection, a::selection, span::s
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 50px 0;
+    padding: 5% 0;
 }
 
 .sobre__conteudo {
@@ -79,7 +79,7 @@ p::selection, h1::selection, h2::selection, h3::selection, a::selection, span::s
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-family: 'Dancing_Script';
 }
 
@@ -92,15 +92,15 @@ p::selection, h1::selection, h2::selection, h3::selection, a::selection, span::s
     display: flex;
     align-items: center;
     width: 70vw;
-    gap: 30px;
-    margin: 50px 0;
-    font-size: 22px;
+    gap: 5vw;
+    margin: 5% 0;
+    font-size: 1.3rem;
     font-family: 'Inter';
 }
 
 .sobre__conteudo__texto__paragrafo::first-letter {
     font-family: 'Dancing_Script';
-    font-size: 30px;
+    font-size: 1.7rem;
 }
 
 .sobre__conteudo__texto__paragrafo__destaque {
@@ -109,10 +109,10 @@ p::selection, h1::selection, h2::selection, h3::selection, a::selection, span::s
 }
 
 .sobre__conteudo__texto__imagem {
-    border-width: 2px;
+    border-width: 0.2rem;
     border-color: #FF9B9B;
     border-style: solid;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     opacity: 0.8;
 }
 
@@ -128,8 +128,8 @@ p::selection, h1::selection, h2::selection, h3::selection, a::selection, span::s
 .sobre__contato__links {
     display: flex;
     justify-content: space-between;
-    margin: 30px 0;
-    gap: 60px;
+    margin: 5% 0;
+    gap: 5vw;
 }
 
 .sobre__contato__links__rede {
@@ -137,16 +137,16 @@ p::selection, h1::selection, h2::selection, h3::selection, a::selection, span::s
     background-color: #FFD09B;
     color: #FFFFFF;
     font-weight: bolder;
-    font-size: 22px;
+    font-size: 1.3rem;
     height: 8vh;
     display: flex;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 0.5rem;
     border-style: outset;
     border-color: #FFECC8;
-    padding: 10px 30px;
+    padding: 1vw 5vh;
     font-family: 'Inter';
-    gap: 5px;
+    gap: 5%;
     opacity: 0.8;
 }
 
