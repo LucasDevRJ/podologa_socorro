@@ -1,0 +1,43 @@
+@import url('style.css');
+
+.rodape {
+    background-color: #FF9B9B;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2%;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    list-style-type: none;
+}
+
+.rodape__navegacao {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vh;
+}
+
+.rodape__endereco__paragrafo, .rodape__paragrafo {
+    font-family: 'Raleway';
+}
+
+.rodape__paragrafo__destaque {
+    font-weight: bolder;
+    color: #FFF7D1;
+}
+
+.rodape__navegacao__link {
+    text-decoration: none;
+    color: #FFF7D1;
+    font-family: 'Raleway';
+}
+
+.rodape__navegacao__link:hover {
+    text-decoration-line: underline;
+    color: #FFD09B;
+}

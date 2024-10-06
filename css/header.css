@@ -1,0 +1,47 @@
+@import url('style.css');
+
+.cabecalho {
+    background-color: #FF9B9B;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 4%;
+}
+
+.cabecalho__logo {
+    font-family: 'Qwitcher_Grypen';
+    font-size: 4rem;
+}
+
+.cabecalho__logo:hover {
+    color: #FFFEC4;
+}
+
+.cabecalho__navegacao {
+    display: flex;
+    align-items: flex-end;
+    align-content: center;
+    justify-content: center;
+    gap: 5vw;
+}
+
+.cabecalho__navegacao__link {
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: #FFF7D1;
+    font-family: 'Raleway';
+    transition: all 0.5s ease-in-out;
+}
+
+.cabecalho__navegacao__link:hover {
+    text-decoration-line: underline;
+    color: #FFD09B;
+}
+
+.cabecalho__navegacao__link:active {
+    color: #FFB0B0;
+}
+
+.cabecalho__navegacao__link:hover::before {
+    content: url(../assets/images/icons8-pegada-direita-30.png);
+}
