@@ -80,7 +80,12 @@ body {
     font-family: 'Inter';
 }
 
-.sobre__conteudo__subtitulos__destaque {
+.sobre__conteudo__texto__paragrafo::selection, .sobre__conteudo__texto__paragrafo__destaque::selection {
+    color: #FFF7D1;
+    background: #FFB0B0;
+}
+
+.sobre__conteudo__texto__paragrafo__destaque {
     color: #FF9B9B;
     font-weight: bolder;
 }
