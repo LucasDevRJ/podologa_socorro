@@ -97,3 +97,13 @@
 .sobre__contato__links__rede:active {
     color: #FF9B9B;
 }
+
+.sobre__localizacao__subtitulo {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Dancing_Script';
+}
+
+.sobre__localizacao__mapa {
+    margin: 5% 0;
+}
