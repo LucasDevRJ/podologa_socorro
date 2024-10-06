@@ -24,6 +24,10 @@ body {
     font-size: 70px;
 }
 
+.cabecalho__logo:hover {
+    color: #FFFEC4;
+}
+
 .cabecalho__navegacao {
     display: flex;
     align-items: flex-end;
@@ -81,6 +85,13 @@ body {
     font-weight: bolder;
 }
 
+.sobre__conteudo__texto__imagem {
+    border-width: 2px;
+    border-color: #FF9B9B;
+    border-style: solid;
+    border-radius: 5px;
+}
+
 .sobre__contato__subtitulo {
     font-family: 'Dancing_Script';
     text-align: center;
@@ -133,6 +144,7 @@ body {
 .rodape__navegacao {
     display: flex;
     flex-direction: column;
+    gap: 5px;
 }
 
 .rodape__endereco__paragrafo, .rodape__paragrafo {
@@ -148,4 +160,9 @@ body {
     text-decoration: none;
     color: #FFF7D1;
     font-family: 'Raleway';
+}
+
+.rodape__navegacao__link:hover {
+    text-decoration-line: underline;
+    color: #FFD09B;
 }
