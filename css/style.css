@@ -165,20 +165,20 @@ p::selection, h1::selection, h2::selection, h3::selection, a::selection, span::s
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 2%;
 }
 
 .rodape__lista {
     display: flex;
     justify-content: center;
-    gap: 5px;
+    gap: 5%;
     list-style-type: none;
 }
 
 .rodape__navegacao {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 0.5vh;
 }
 
 .rodape__endereco__paragrafo, .rodape__paragrafo {
