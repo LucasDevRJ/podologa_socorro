@@ -53,6 +53,10 @@ p::selection, h1::selection, h2::selection, h3::selection, a::selection, span::s
     color: #FFD09B;
 }
 
+.cabecalho__navegacao__link:active {
+    color: #FFB0B0;
+}
+
 .sobre {
     display: flex;
     align-items: center;
@@ -122,17 +126,21 @@ p::selection, h1::selection, h2::selection, h3::selection, a::selection, span::s
     font-size: 22px;
     height: 8vh;
     display: flex;
-    justify-content: center;
     align-items: center;
     border-radius: 5px;
     border-style: outset;
     border-color: #FFECC8;
     padding: 10px 30px;
     font-family: 'Inter';
+    gap: 5px;
 }
 
 .sobre__contato__links__rede:hover {
     border-color: #FF9B9B;
+}
+
+.sobre__contato__links__rede:active {
+    color: #FF9B9B;
 }
 
 .rodape {
