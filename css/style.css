@@ -11,6 +11,11 @@ body {
     height: 100vh;
 }
 
+p::selection, h1::selection, h2::selection, h3::selection, a::selection, span::selection {
+    color: #FFF7D1;
+    background: #FFB0B0;
+}
+
 .cabecalho {
     background-color: #FF9B9B;
     height: 20vh;
@@ -70,6 +75,11 @@ body {
     font-family: 'Dancing_Script';
 }
 
+.sobre__conteudo__subtitulos__destaque {
+    color: #FF9B9B;
+    font-weight: bolder;
+}
+
 .sobre__conteudo__texto {
     display: flex;
     align-items: center;
@@ -78,11 +88,6 @@ body {
     margin: 50px 0;
     font-size: 22px;
     font-family: 'Inter';
-}
-
-.sobre__conteudo__texto__paragrafo::selection, .sobre__conteudo__texto__paragrafo__destaque::selection {
-    color: #FFF7D1;
-    background: #FFB0B0;
 }
 
 .sobre__conteudo__texto__paragrafo__destaque {
