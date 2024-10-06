@@ -57,6 +57,10 @@ p::selection, h1::selection, h2::selection, h3::selection, a::selection, span::s
     color: #FFB0B0;
 }
 
+.cabecalho__navegacao__link:hover::before {
+    content: url(../assets/images/icons8-pegada-direita-30.png);
+}
+
 .sobre {
     display: flex;
     align-items: center;
@@ -92,6 +96,11 @@ p::selection, h1::selection, h2::selection, h3::selection, a::selection, span::s
     margin: 50px 0;
     font-size: 22px;
     font-family: 'Inter';
+}
+
+.sobre__conteudo__texto__paragrafo::first-letter {
+    font-family: 'Dancing_Script';
+    font-size: 30px;
 }
 
 .sobre__conteudo__texto__paragrafo__destaque {
