@@ -108,7 +108,12 @@
     width: 50vw;
 }
 
+.sobre__horarios__subtitulo {
+    text-align: center;
+}
+
 .sobre__horarios__tabela {
+    margin: 5% 0;
     border-style: solid;
     border-width: 2px;
     border-color: black;
@@ -116,15 +121,23 @@
     width: 40vw;
 }
 
-.sobre__horarios__tabela thead, th, tr, td {
+.sobre__horarios__tabela,
+.sobre__horarios__tabela__cabecalho, 
+.sobre__horarios__tabela__cabecalho__linha__coluna, 
+.sobre__horarios__tabela__corpo__linha, 
+.sobre__horarios__tabela__corpo__linha__coluna {
     border-style: solid;
     border-width: 2px;
     border-color: black;
     padding: 0.4rem;
     text-align: center;
+    
 }
 
-.sobre__horarios__tabela, .sobre__horarios__tabela thead, th, tr, td {
+.sobre__horarios__tabela, .sobre__horarios__tabela thead, 
+.sobre__horarios__tabela__cabecalho__linha__coluna, 
+.sobre__horarios__tabela__cabecalho__linha, 
+.sobre__horarios__tabela__corpo__linha__coluna {
     border-width: 0.2rem;
     border-color: #FF9B9B;
     border-style: solid;
