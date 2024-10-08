@@ -105,6 +105,7 @@
 
 .sobre__localizacao__mapa {
     margin: 5% 0;
+    width: 50vw;
 }
 
 .sobre__horarios__tabela {
@@ -120,4 +121,13 @@
     border-width: 2px;
     border-color: black;
     padding: 0.4rem;
+    text-align: center;
+}
+
+.sobre__horarios__tabela, .sobre__horarios__tabela thead, th, tr, td {
+    border-width: 0.2rem;
+    border-color: #FF9B9B;
+    border-style: solid;
+    border-radius: 0.5rem;
+    background-color: #FFF7D1;
 }
