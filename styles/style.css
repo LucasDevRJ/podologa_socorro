@@ -1,4 +1,13 @@
+/** Arquivo CSS para acumular códigos de estilizações globais do site, como também variáveis **/
+
 @import url('fonts.css');
+
+:root {
+    --cor-primaria: #FFF7D1;
+    --cor-secundaria: #FFECC8;
+    --cor-terciaria: #FFD09B;
+    --cor-quaternaria: #FFB0B0;
+}
 
 * {
     margin: 0;
