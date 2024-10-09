@@ -62,6 +62,24 @@
 .sobre__contato__subtitulo {
     font-family: 'Dancing_Script';
     text-align: center;
+    font-size: 1.5rem;
+}
+
+.sobre__tratamentos__subtitulo {
+    font-family: 'Dancing_Script';
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.sobre__tratamentos__lista {
+    list-style: none;
+    list-style-image: url('../assets/images/icone-pes-tratamentos.png');
+    margin: 5% 0;
+}
+
+.sobre__tratamentos__lista__item {
+    font-size: 1.3rem;
+    font-family: 'Inter';
 }
 
 .sobre__contato__links {
@@ -110,6 +128,8 @@
 
 .sobre__horarios__subtitulo {
     text-align: center;
+    font-family: 'Dancing_Script';
+    font-size: 1.5rem;
 }
 
 .sobre__horarios__tabela {
@@ -143,4 +163,5 @@
     border-style: solid;
     border-radius: 0.5rem;
     background-color: #FFF7D1;
+    font-family: 'Inter';
 }
