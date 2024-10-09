@@ -15,12 +15,12 @@
 }
 
 body {
-    background-color: #FFFEC4;
+    background-color: var(--cor-primaria);
     box-sizing: border-box;
     height: 100vh;
 }
 
 p::selection, h1::selection, h2::selection, h3::selection, a::selection, span::selection {
-    color: #FFF7D1;
-    background: #FFB0B0;
+    color: var(--cor-primaria);
+    background: var(--cor-quaternaria);
 }
