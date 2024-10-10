@@ -9,7 +9,7 @@
 }
 
 .cabecalho__logo {
-    font-family: 'Qwitcher_Grypen';
+    font-family: var(--fonte-primaria);
     font-size: 4rem;
 }
 
@@ -29,7 +29,7 @@
     font-size: 1.7rem;
     text-decoration: none;
     color: var(--cor-primaria);
-    font-family: 'Raleway';
+    font-family: var(--fonte-quaternaria);
     transition: all 0.5s ease-in-out;
 }
 

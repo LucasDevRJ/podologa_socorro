@@ -8,7 +8,10 @@
     --cor-terciaria: #FFD09B;
     --cor-quaternaria: #FFB0B0;
 
-    --cor-fonte: #000000;
+    --fonte-primaria: 'Qwitcher_Grypen';
+    --fonte-secundaria: 'Inter';
+    --fonte-terciaria: 'Dancing_Script';
+    --fonte-quaternaria: 'Raleway';
 }
 
 * {

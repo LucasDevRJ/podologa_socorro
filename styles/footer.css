@@ -23,7 +23,7 @@
 }
 
 .rodape__endereco__paragrafo, .rodape__paragrafo {
-    font-family: 'Raleway';
+    font-family: var(--fonte-quaternaria);
 }
 
 .rodape__paragrafo__destaque {
@@ -34,7 +34,7 @@
 .rodape__navegacao__link {
     text-decoration: none;
     color: var(--cor-primaria);
-    font-family: 'Raleway';
+    font-family: var(--fonte-quaternaria);
 }
 
 .rodape__navegacao__link:hover {
