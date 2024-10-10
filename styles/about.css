@@ -48,7 +48,7 @@
 }
 
 .sobre__conteudo__texto__imagem {
-    border-width: 0.2rem;
+    border-width: var(--borda-tamanho);
     border-color: var(--cor-terciaria);
     border-style: var(--borda-estilo);
     border-radius: var(--borda-tamanho);
@@ -135,7 +135,7 @@
 .sobre__horarios__tabela {
     margin: var(--espacamento-externo);
     border-style: var(--borda-estilo);
-    border-width: 2px;
+    border-width: var(--borda-tamanho);
     font-size: var(--fonte-tamanho-texto);
     width: 40vw;
 }
@@ -146,7 +146,7 @@
 .sobre__horarios__tabela__corpo__linha, 
 .sobre__horarios__tabela__corpo__linha__coluna {
     border-style: var(--borda-estilo);
-    border-width: 2px;
+    border-width: var(--borda-tamanho);
     padding: 0.4rem;
     text-align: center;
 }
@@ -155,7 +155,7 @@
 .sobre__horarios__tabela__cabecalho__linha__coluna, 
 .sobre__horarios__tabela__cabecalho__linha, 
 .sobre__horarios__tabela__corpo__linha__coluna {
-    border-width: 0.2rem;
+    border-width: var(--borda-tamanho);
     border-color: var(--cor-quaternaria);
     border-style: var(--borda-estilo);
     border-radius: var(--borda-tamanho);

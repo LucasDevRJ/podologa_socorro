@@ -30,7 +30,6 @@
     text-decoration: none;
     color: var(--cor-primaria);
     font-family: var(--fonte-quaternaria);
-    transition: all 0.5s ease-in-out;
 }
 
 .cabecalho__navegacao__link:hover {
