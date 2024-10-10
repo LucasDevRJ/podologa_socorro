@@ -1,7 +1,7 @@
 @import url('style.css');
 
 .cabecalho {
-    background-color: #FF9B9B;
+    background-color: var(--cor-quaternaria);
     height: 20vh;
     display: flex;
     justify-content: space-between;
@@ -14,7 +14,7 @@
 }
 
 .cabecalho__logo:hover {
-    color: #FFFEC4;
+    color: var(--cor-primaria);
 }
 
 .cabecalho__navegacao {
@@ -28,20 +28,20 @@
 .cabecalho__navegacao__link {
     font-size: 1.7rem;
     text-decoration: none;
-    color: #FFF7D1;
+    color: var(--cor-primaria);
     font-family: 'Raleway';
     transition: all 0.5s ease-in-out;
 }
 
 .cabecalho__navegacao__link:hover {
     text-decoration-line: underline;
-    color: #FFD09B;
+    color: var(--cor-terciaria);
 }
 
 .cabecalho__navegacao__link:active {
-    color: #FFB0B0;
+    color: var(--cor-quaternaria);
 }
 
 .cabecalho__navegacao__link:hover::before {
-    content: url(../assets/images/icons8-pegada-direita-30.png);
+    content: url(../assets/images/icone-pe-cabecalho.png);
 }

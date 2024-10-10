@@ -1,7 +1,7 @@
 @import url('style.css');
 
 .rodape {
-    background-color: #FF9B9B;
+    background-color: var(--cor-quaternaria);
     height: 30vh;
     display: flex;
     justify-content: space-between;
@@ -28,16 +28,16 @@
 
 .rodape__paragrafo__destaque {
     font-weight: bolder;
-    color: #FFF7D1;
+    color: var(--cor-primaria);
 }
 
 .rodape__navegacao__link {
     text-decoration: none;
-    color: #FFF7D1;
+    color: var(--cor-primaria);
     font-family: 'Raleway';
 }
 
 .rodape__navegacao__link:hover {
     text-decoration-line: underline;
-    color: #FFD09B;
+    color: var(--cor-terciaria);
 }
