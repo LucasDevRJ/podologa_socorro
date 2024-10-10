@@ -17,6 +17,11 @@
     --fonte-tamanho-subtitulo: 1.5rem;
     --fonte-tamanho-texto: 1.3rem;
     --fonte-tamanho-rodape: 1rem;
+
+    --espacamento-externo: 5% 0;
+
+    --borda-tamanho: 0.5rem;
+    --borda-estilo: solid;
 }
 
 * {
