@@ -10,7 +10,7 @@
 
 .cabecalho__logo {
     font-family: var(--fonte-primaria);
-    font-size: 4rem;
+    font-size: var(--fonte-tamanho-titulo);
 }
 
 .cabecalho__logo:hover {
@@ -26,7 +26,7 @@
 }
 
 .cabecalho__navegacao__link {
-    font-size: 1.7rem;
+    font-size: var(--fonte-tamanho-subtitulo);
     text-decoration: none;
     color: var(--cor-primaria);
     font-family: var(--fonte-quaternaria);

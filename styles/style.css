@@ -12,6 +12,11 @@
     --fonte-secundaria: 'Inter';
     --fonte-terciaria: 'Dancing_Script';
     --fonte-quaternaria: 'Raleway';
+
+    --fonte-tamanho-titulo: 4rem;
+    --fonte-tamanho-subtitulo: 1.5rem;
+    --fonte-tamanho-texto: 1.3rem;
+    --fonte-tamanho-rodape: 1rem;
 }
 
 * {

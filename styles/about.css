@@ -18,7 +18,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: var(--fonte-tamanho-subtitulo);
     font-family: var(--fonte-terciaria);
 }
 
@@ -33,13 +33,13 @@
     width: 70vw;
     gap: 5vw;
     margin: 5% 0;
-    font-size: 1.3rem;
+    font-size: var(--fonte-tamanho-texto);
     font-family: var(--fonte-secundaria);
 }
 
 .sobre__conteudo__texto__paragrafo::first-letter {
     font-family: var(--fonte-terciaria);
-    font-size: 1.7rem;
+    font-size: 1.9rem;
 }
 
 .sobre__conteudo__texto__paragrafo__destaque {
@@ -62,13 +62,13 @@
 .sobre__contato__subtitulo {
     font-family: var(--fonte-terciaria);
     text-align: center;
-    font-size: 1.5rem;
+    font-size: var(--fonte-tamanho-subtitulo);
 }
 
 .sobre__tratamentos__subtitulo {
     font-family: var(--fonte-terciaria);
     text-align: center;
-    font-size: 1.5rem;
+    font-size: var(--fonte-tamanho-subtitulo);
 }
 
 .sobre__tratamentos__lista {
@@ -78,7 +78,7 @@
 }
 
 .sobre__tratamentos__lista__item {
-    font-size: 1.3rem;
+    font-size: var(--fonte-tamanho-texto);
     font-family: var(--fonte-secundaria);
 }
 
@@ -94,7 +94,7 @@
     background-color: var(--cor-terciaria);
     color: var(--cor-primaria);
     font-weight: bolder;
-    font-size: 1.3rem;
+    font-size: var(--fonte-tamanho-texto);
     height: 8vh;
     display: flex;
     align-items: center;
@@ -117,7 +117,7 @@
 }
 
 .sobre__localizacao__subtitulo {
-    font-size: 1.5rem;
+    font-size: var(--fonte-tamanho-subtitulo);
     font-family: var(--fonte-terciaria);
 }
 
@@ -129,14 +129,14 @@
 .sobre__horarios__subtitulo {
     text-align: center;
     font-family: var(--fonte-terciaria);
-    font-size: 1.5rem;
+    font-size: var(--fonte-tamanho-subtitulo);
 }
 
 .sobre__horarios__tabela {
     margin: 5% 0;
     border-style: solid;
     border-width: 2px;
-    font-size: 1.3rem;
+    font-size: var(--fonte-tamanho-texto);
     width: 40vw;
 }
 
