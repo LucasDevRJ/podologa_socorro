@@ -44,3 +44,19 @@
 .cabecalho__navegacao__link:hover::before {
     content: url(../assets/images/icone-pe-cabecalho.png);
 }
+
+@media (max-width: 480px) {
+    .cabecalho {
+        display: block;
+        height: 35vh;
+        padding: 5% 0;
+        text-align: center;
+    }
+
+    .cabecalho__navegacao {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        margin: 4% 0;
+    }
+}
