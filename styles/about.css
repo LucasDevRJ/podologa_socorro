@@ -65,6 +65,11 @@
     font-size: var(--fonte-tamanho-subtitulo);
 }
 
+.sobre__tratamentos {
+    display: flex;
+    flex-direction: column;
+}
+
 .sobre__tratamentos__subtitulo {
     font-family: var(--fonte-terciaria);
     text-align: center;
@@ -177,8 +182,7 @@
 @media (max-width: 480px) {
     .sobre__conteudo__texto {
         flex-direction: column;
-        width: 80%;
-        gap: 5vw;
+        width: 100%;
     }
 
     .sobre__localizacao {
