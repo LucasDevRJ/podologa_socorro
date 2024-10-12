@@ -116,6 +116,12 @@
     color: var(--cor-quaternaria);
 }
 
+.sobre__localizacao {
+    display: flex;
+    flex-direction: column;
+    margin: var(--espacamento-externo);
+}
+
 .sobre__localizacao__subtitulo {
     font-size: var(--fonte-tamanho-subtitulo);
     font-family: var(--fonte-terciaria);
@@ -124,6 +130,11 @@
 .sobre__localizacao__mapa {
     margin: var(--espacamento-externo);
     width: 50vw;
+}
+
+.sobre__horarios {
+    display: flex;
+    flex-direction: column;
 }
 
 .sobre__horarios__subtitulo {
@@ -161,4 +172,33 @@
     border-radius: var(--borda-tamanho);
     background-color: var(--cor-primaria);
     font-family: var(--fonte-secundaria);
+}
+
+@media (max-width: 480px) {
+    .sobre__conteudo__texto {
+        flex-direction: column;
+        width: 80%;
+        gap: 5vw;
+    }
+
+    .sobre__localizacao {
+        align-items: center;
+    }
+
+    .sobre__localizacao__mapa {
+        width: 90%;
+    }
+
+    .sobre__contato__links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobre__contato__links__rede {
+        width: 40%;
+    }
+
+    .sobre__horarios__tabela {
+        width: 100%;
+    }
 }
