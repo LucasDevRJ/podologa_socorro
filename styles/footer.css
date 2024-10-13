@@ -45,3 +45,13 @@
     text-decoration-line: underline;
     color: var(--cor-terciaria);
 }
+
+@media (max-width: 480px) {
+    .rodape {
+        flex-direction: column;
+        height: 40vh;
+        padding: 5% 0;
+        justify-content: center;
+        gap: 5%;
+    }
+}
