@@ -189,6 +189,10 @@
         align-items: center;
     }
 
+    .sobre__localizacao__subtitulo {
+        text-align: center;
+    }
+
     .sobre__localizacao__mapa {
         width: 90%;
     }
