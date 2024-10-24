@@ -46,7 +46,7 @@
     color: var(--cor-terciaria);
 }
 
-@media (max-width: 480px) {
+@media (min-width: 300px) and (max-width: 800px) {
     .rodape {
         flex-direction: column;
         height: 40vh;

@@ -92,6 +92,7 @@
     justify-content: space-between;
     margin: var(--espacamento-externo);
     gap: 5vw;
+    box-sizing: border-box;
 }
 
 .sobre__contato__links__rede {
@@ -202,6 +203,15 @@
 
     .sobre__horarios__tabela {
         width: 80vw;
+    }
+
+    .sobre__contato__links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobre__contato__links__rede {
+        width: 20%;
     }
 }
 
