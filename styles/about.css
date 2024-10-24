@@ -187,6 +187,18 @@
     .sobre__conteudo__texto__imagem {
         width: 50%;
     }
+
+    .sobre__localizacao {
+        align-items: center;
+    }
+
+    .sobre__localizacao__subtitulo {
+        text-align: center;
+    }
+
+    .sobre__localizacao__mapa {
+        width: 80%;
+    }
 }
 
 @media (max-width: 480px) {
