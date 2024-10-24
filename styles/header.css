@@ -45,24 +45,23 @@
     content: url(../assets/images/icone-pe-cabecalho.png);
 }
 
-@media (min-width: 480px) and (max-width: 767px) {
+
+@media (max-width: 800px) {
     .cabecalho {
         display: block;
-        height: 40vh;
         padding: 5% 0;
         text-align: center;
     }
 
     .cabecalho__navegacao {
-        flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin: 4% 0;
-        gap: 1vh;
+        margin: 6% 0;
+        gap: 4vw;
     }
 }
 
-@media (max-width: 479px) {
+@media (max-width: 480px) {
     .cabecalho {
         display: block;
         height: 35vh;

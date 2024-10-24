@@ -179,12 +179,11 @@
     font-family: var(--fonte-secundaria);
 }
 
-
 @media (min-width: 480px) and (max-width: 767px) {
     
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
     .sobre__conteudo__texto {
         flex-direction: column;
         width: 100%;
