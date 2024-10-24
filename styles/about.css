@@ -199,6 +199,10 @@
     .sobre__localizacao__mapa {
         width: 80%;
     }
+
+    .sobre__horarios__tabela {
+        width: 80vw;
+    }
 }
 
 @media (max-width: 480px) {
