@@ -18,4 +18,4 @@ jobs:
           server: ftp://seusite.com
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./public_html/  # Ajuste conforme o diretório do seu projeto
+          local-dir: ./  # Ajuste conforme o diretório do seu projeto
