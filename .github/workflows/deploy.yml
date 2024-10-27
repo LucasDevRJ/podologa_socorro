@@ -15,7 +15,7 @@ jobs:
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
-          server: ftp://seusite.com
+          server: https://podologasocorro.com.br
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./  # Ajuste conforme o diretório do seu projeto
+          local-dir: ./public_html  # Ajuste conforme o diretório do seu projeto
