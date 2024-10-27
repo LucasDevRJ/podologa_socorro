@@ -29,21 +29,21 @@
 
 .rodape__paragrafo__destaque {
     font-weight: bolder;
-    color: var(--cor-primaria);
+    color: var(--cor-quintaria);
     font-family: var(--fonte-secundaria);
     font-size: var(--fonte-tamanho-rodape);
 }
 
 .rodape__navegacao__link {
     text-decoration: none;
-    color: var(--cor-primaria);
+    color: var(--cor-quintaria);
     font-family: var(--fonte-secundaria);
     font-size: var(--fonte-tamanho-rodape);
 }
 
 .rodape__navegacao__link:hover {
     text-decoration-line: underline;
-    color: var(--cor-terciaria);
+    color: var(--cor-primaria);
 }
 
 @media (min-width: 300px) and (max-width: 900px) {
