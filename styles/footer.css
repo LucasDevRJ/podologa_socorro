@@ -54,4 +54,8 @@
         justify-content: center;
         gap: 5%;
     }
+
+    .rodape__endereco {
+        text-align: center;
+    }
 }

@@ -222,6 +222,10 @@
         width: 100%;
     }
 
+    .sobre__tratamentos__lista {
+        padding: 0 ;
+    }
+
     .sobre__localizacao {
         align-items: center;
     }
