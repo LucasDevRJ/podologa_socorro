@@ -1,0 +1,21 @@
+name: Deploy to Hostinger
+
+on:
+  push:
+    branches:
+      - main  # Ou qualquer branch que você usa para o deploy
+
+jobs:
+  ftp-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v2
+
+      - name: FTP Deploy
+        uses: SamKirkland/FTP-Deploy-Action@4.1.0
+        with:
+          server: ftp://seusite.com
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./public_html  # Ajuste conforme o diretório do seu projeto
