@@ -28,13 +28,13 @@
 .cabecalho__navegacao__link {
     font-size: var(--fonte-tamanho-subtitulo);
     text-decoration: none;
-    color: var(--cor-primaria);
+    color: var(--cor-quintaria);
     font-family: var(--fonte-quaternaria);
 }
 
 .cabecalho__navegacao__link:hover {
     text-decoration-line: underline;
-    color: var(--cor-terciaria);
+    color: var(--cor-primaria);
 }
 
 .cabecalho__navegacao__link:active {
