@@ -132,6 +132,11 @@
 .sobre__localizacao__subtitulo {
     font-size: var(--fonte-tamanho-subtitulo);
     font-family: var(--fonte-terciaria);
+    margin-bottom: 2rem;
+}
+
+.sobre__localizacao__paragrafo {
+    font-size: var(--fonte-tamanho-texto);
 }
 
 .sobre__localizacao__mapa {
@@ -212,7 +217,7 @@
     }
 
     .sobre__contato__links__rede {
-        width: 20%;
+        width: 65%;
     }
 }
 
@@ -244,7 +249,7 @@
     }
 
     .sobre__contato__links__rede {
-        width: 40%;
+        width: 65%;
     }
 
     .sobre__horarios__tabela {

@@ -26,7 +26,7 @@
 }
 
 .cabecalho__navegacao__link {
-    font-size: var(--fonte-tamanho-subtitulo);
+    font-size: var(--fonte-tamanho-link);
     text-decoration: none;
     color: var(--cor-quintaria);
     font-family: var(--fonte-quaternaria);
